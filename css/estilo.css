@@ -1,0 +1,214 @@
+﻿/**
+ * Fontes
+ */
+
+ @font-face {
+     font-family: "Bambino-Regular";
+     src: url("../fonts/Bambino-Regular.ttf");
+ }
+
+ @font-face {
+     font-family: "Bambino-Bold";
+     src: url("../fonts/Bambino-Bold.ttf");
+ }
+
+ @font-face {
+     font-family: "Bambino-Light";
+     src: url("../fonts/Bambino-Light.ttf");
+ }
+
+ @font-face {
+     font-family: "Bambino-Light-Italic";
+     src: url("../fonts/Bambino-Light-Italic.ttf");
+ }
+
+ @font-face {
+     font-family: "Montserrat-Medium";
+     src: url("../fonts/Montserrat-Medium.ttf");
+ }
+
+ @font-face {
+     font-family: "Montserrat-ExtraLight";
+     src: url("../fonts/Montserrat-ExtraLight.ttf");
+ }
+
+ @font-face {
+     font-family: "Roboto-Regular";
+     src: url("../fonts/Roboto-Regular.ttf");
+ }
+
+ @font-face {
+     font-family: "Roboto-Black";
+     src: url("../fonts/Roboto-Black.ttf");
+ }
+
+ @font-face {
+     font-family: "Roboto-Light";
+     src: url("../fonts/Roboto-Light.ttf");
+ }
+
+
+/**
+ * Reset e configurações gerais
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ver {
+    border: 2px solid red;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+a, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/**
+ * Configurações de paragrafos, titulos, subtitulos, etc.
+ */
+
+h1 {
+    font-family: "Bambino-Bold";
+    font-size: 106px;
+}
+
+h2 {
+    font-family: "Bambino-Regular";
+    font-size: 34px;
+}
+
+h3 {
+    font-family: "Bambino-Bold";
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "Montserrat-Medium";
+    font-size: 24px;
+}
+
+/**
+ * Topbar
+**/
+
+.topbar {
+    font-size: 22px;
+    background-color: #2c2c2c;
+    padding: 10px 0;
+    color: white;
+    border-bottom: 7px solid #00a5ff;
+}
+
+#topbar-tel {
+    margin-right: 15%;
+}
+
+#topbar-tel i {
+    font-size: 30px;
+}
+
+#topbar-tel span {
+    font-size: 18px;
+}
+
+/**
+ * Menu
+**/
+
+.menu {
+    background: url('../img/quemsomos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+}
+
+.navbar, .navbar-brand {
+    padding: 0;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menutexto {
+    color: white;
+    height: 100%;
+}
+
+.menutexto h1 {
+    font-family: "Bambino-Light";
+    font-size: 66px;
+}
+
+/**
+ * Quem somos
+ */
+
+.quem-somos {
+    background: url('../img/quem-somos2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100%;
+    margin-top: -250px;
+    padding: 180px 0;
+    color: white;
+}
+
+.quem-somos p {
+    margin-left: 50px;
+}
+
+.quem-somos2 {
+    font-family: "Montserrat-Medium" !important;
+    color: black;
+    margin-top: 600px;
+    /* margin-top: 50%; */
+}
+
+/**
+ * Especialistas
+ */
+
+.especialistas {
+    background: url("../img/especialistas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100%;
+    margin-top: -200px;
+    padding: 400px 0;
+}
+
+.especialistas h2 {
+    font-family: "Bambino-Light";
+    font-size: 44px;
+}
+
+/**
+ * Blog
+ */
+
+ .blog {
+     background: url("../img/blog.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top center;
+     min-height: 100%;
+ }
+
+ .blog a {
+     color: black;
+ }
